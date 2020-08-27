@@ -1,4 +1,4 @@
-update=08/27/20 04:07:34
+update=08/27/20 04:47:27
 version=1
 last_client=kicad
 [general]
@@ -251,3 +251,13 @@ dPairGap=0.25
 dPairViaGap=0.25
 [SchematicFrame]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
