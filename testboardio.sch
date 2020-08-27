@@ -1,0 +1,788 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Ai03:MX-LED MX1
+U 1 1 5F344D4E
+P 5900 2150
+F 0 "MX1" H 5982 2331 60  0000 C CNN
+F 1 "MX-LED" H 5982 2300 20  0001 C CNN
+F 2 "Ai03-MX:MXOnly-1U" H 5275 2125 60  0001 C CNN
+F 3 "" H 5275 2125 60  0001 C CNN
+	1    5900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5F34662F
+P 5850 2550
+F 0 "D1" V 5850 2480 50  0000 R CNN
+F 1 "D_Small" V 5805 2480 50  0001 R CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" V 5850 2550 50  0001 C CNN
+F 3 "~" V 5850 2550 50  0001 C CNN
+	1    5850 2550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6050 2100 6200 2100
+Wire Wire Line
+	6200 2100 6200 2000
+Wire Wire Line
+	5850 2300 5850 2450
+Wire Wire Line
+	6000 2150 6300 2150
+$Comp
+L Device:R_Small R1
+U 1 1 5F34860D
+P 6000 2550
+F 0 "R1" H 6059 2550 50  0000 L CNN
+F 1 "R_Small" H 6059 2505 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6000 2550 50  0001 C CNN
+F 3 "~" H 6000 2550 50  0001 C CNN
+	1    6000 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2250 5900 2400
+Wire Wire Line
+	5900 2400 6000 2400
+Wire Wire Line
+	6000 2400 6000 2450
+Wire Wire Line
+	5850 2650 5850 2750
+Wire Wire Line
+	5850 2750 5500 2750
+$Comp
+L Ai03:MX-LED MX2
+U 1 1 5F35DDEE
+P 6550 2150
+F 0 "MX2" H 6632 2331 60  0000 C CNN
+F 1 "MX-LED" H 6632 2300 20  0001 C CNN
+F 2 "Ai03-MX:MXOnly-1U" H 5925 2125 60  0001 C CNN
+F 3 "" H 5925 2125 60  0001 C CNN
+	1    6550 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5F35DDF8
+P 6500 2550
+F 0 "D2" V 6500 2480 50  0000 R CNN
+F 1 "D_Small" V 6455 2480 50  0001 R CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" V 6500 2550 50  0001 C CNN
+F 3 "~" V 6500 2550 50  0001 C CNN
+	1    6500 2550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6700 2100 6850 2100
+Wire Wire Line
+	6850 2100 6850 2000
+Wire Wire Line
+	6500 2300 6500 2450
+Wire Wire Line
+	6650 2150 6950 2150
+$Comp
+L Device:R_Small R2
+U 1 1 5F35DE11
+P 6650 2550
+F 0 "R2" H 6709 2550 50  0000 L CNN
+F 1 "R_Small" H 6709 2505 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6650 2550 50  0001 C CNN
+F 3 "~" H 6650 2550 50  0001 C CNN
+	1    6650 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2250 6550 2400
+Wire Wire Line
+	6550 2400 6650 2400
+Wire Wire Line
+	6650 2400 6650 2450
+Wire Wire Line
+	6500 2650 6500 2750
+$Comp
+L Ai03:MX-LED MX3
+U 1 1 5F3647C2
+P 7200 2150
+F 0 "MX3" H 7282 2331 60  0000 C CNN
+F 1 "MX-LED" H 7282 2300 20  0001 C CNN
+F 2 "Ai03-MX:MXOnly-1U" H 6575 2125 60  0001 C CNN
+F 3 "" H 6575 2125 60  0001 C CNN
+	1    7200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5F3647CC
+P 7150 2550
+F 0 "D3" V 7150 2480 50  0000 R CNN
+F 1 "D_Small" V 7105 2480 50  0001 R CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" V 7150 2550 50  0001 C CNN
+F 3 "~" V 7150 2550 50  0001 C CNN
+	1    7150 2550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7350 2100 7500 2100
+Wire Wire Line
+	7500 2100 7500 2000
+Wire Wire Line
+	7150 2300 7150 2450
+$Comp
+L Device:R_Small R3
+U 1 1 5F3647E5
+P 7300 2550
+F 0 "R3" H 7359 2550 50  0000 L CNN
+F 1 "R_Small" H 7359 2505 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7300 2550 50  0001 C CNN
+F 3 "~" H 7300 2550 50  0001 C CNN
+	1    7300 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2250 7200 2400
+Wire Wire Line
+	7200 2400 7300 2400
+Wire Wire Line
+	7300 2400 7300 2450
+Wire Wire Line
+	7150 2650 7150 2750
+$Comp
+L Ai03:MX-LED MX4
+U 1 1 5F3679B0
+P 5900 3150
+F 0 "MX4" H 5982 3331 60  0000 C CNN
+F 1 "MX-LED" H 5982 3300 20  0001 C CNN
+F 2 "Ai03-MX:MXOnly-1U" H 5275 3125 60  0001 C CNN
+F 3 "" H 5275 3125 60  0001 C CNN
+	1    5900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5F3679BA
+P 5850 3550
+F 0 "D4" V 5850 3480 50  0000 R CNN
+F 1 "D_Small" V 5805 3480 50  0001 R CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" V 5850 3550 50  0001 C CNN
+F 3 "~" V 5850 3550 50  0001 C CNN
+	1    5850 3550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6050 3100 6200 3100
+Wire Wire Line
+	5850 3300 5850 3450
+Wire Wire Line
+	6000 3150 6300 3150
+$Comp
+L Device:R_Small R4
+U 1 1 5F3679D3
+P 6000 3550
+F 0 "R4" H 6059 3550 50  0000 L CNN
+F 1 "R_Small" H 6059 3505 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6000 3550 50  0001 C CNN
+F 3 "~" H 6000 3550 50  0001 C CNN
+	1    6000 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3250 5900 3400
+Wire Wire Line
+	5900 3400 6000 3400
+Wire Wire Line
+	6000 3400 6000 3450
+Wire Wire Line
+	5850 3650 5850 3750
+Wire Wire Line
+	5850 3750 5500 3750
+$Comp
+L Ai03:MX-LED MX5
+U 1 1 5F3679E2
+P 6550 3150
+F 0 "MX5" H 6632 3331 60  0000 C CNN
+F 1 "MX-LED" H 6632 3300 20  0001 C CNN
+F 2 "Ai03-MX:MXOnly-1U" H 5925 3125 60  0001 C CNN
+F 3 "" H 5925 3125 60  0001 C CNN
+	1    6550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5F3679EC
+P 6500 3550
+F 0 "D5" V 6500 3480 50  0000 R CNN
+F 1 "D_Small" V 6455 3480 50  0001 R CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" V 6500 3550 50  0001 C CNN
+F 3 "~" V 6500 3550 50  0001 C CNN
+	1    6500 3550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6700 3100 6850 3100
+Wire Wire Line
+	6500 3300 6500 3450
+Wire Wire Line
+	6650 3150 6950 3150
+$Comp
+L Device:R_Small R5
+U 1 1 5F367A05
+P 6650 3550
+F 0 "R5" H 6709 3550 50  0000 L CNN
+F 1 "R_Small" H 6709 3505 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6650 3550 50  0001 C CNN
+F 3 "~" H 6650 3550 50  0001 C CNN
+	1    6650 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3250 6550 3400
+Wire Wire Line
+	6550 3400 6650 3400
+Wire Wire Line
+	6650 3400 6650 3450
+Wire Wire Line
+	6500 3650 6500 3750
+$Comp
+L Ai03:MX-LED MX6
+U 1 1 5F367A14
+P 7200 3150
+F 0 "MX6" H 7282 3331 60  0000 C CNN
+F 1 "MX-LED" H 7282 3300 20  0001 C CNN
+F 2 "Ai03-MX:MXOnly-1U" H 6575 3125 60  0001 C CNN
+F 3 "" H 6575 3125 60  0001 C CNN
+	1    7200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 5F367A1E
+P 7150 3550
+F 0 "D6" V 7150 3480 50  0000 R CNN
+F 1 "D_Small" V 7105 3480 50  0001 R CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" V 7150 3550 50  0001 C CNN
+F 3 "~" V 7150 3550 50  0001 C CNN
+	1    7150 3550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7350 3100 7500 3100
+Wire Wire Line
+	7150 3300 7150 3450
+Wire Wire Line
+	7300 3150 7600 3150
+$Comp
+L Device:R_Small R6
+U 1 1 5F367A37
+P 7300 3550
+F 0 "R6" H 7359 3550 50  0000 L CNN
+F 1 "R_Small" H 7359 3505 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7300 3550 50  0001 C CNN
+F 3 "~" H 7300 3550 50  0001 C CNN
+	1    7300 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3250 7200 3400
+Wire Wire Line
+	7200 3400 7300 3400
+Wire Wire Line
+	7300 3400 7300 3450
+Wire Wire Line
+	7150 3650 7150 3750
+Wire Wire Line
+	6200 2100 6200 3100
+Connection ~ 6200 2100
+Wire Wire Line
+	6850 2100 6850 3100
+Connection ~ 6850 2100
+Wire Wire Line
+	7500 2100 7500 3100
+Connection ~ 7500 2100
+Wire Wire Line
+	6950 2150 6950 3150
+Connection ~ 6950 2150
+Wire Wire Line
+	6300 2150 6300 3150
+Connection ~ 6300 2150
+Wire Wire Line
+	7300 2150 7600 2150
+Connection ~ 7600 2150
+Wire Wire Line
+	7600 2150 7600 3150
+Wire Wire Line
+	5850 2750 6500 2750
+Connection ~ 5850 2750
+Wire Wire Line
+	6500 2750 7150 2750
+Connection ~ 6500 2750
+Wire Wire Line
+	6500 3750 7150 3750
+Connection ~ 6500 3750
+Wire Wire Line
+	5850 3750 6500 3750
+Connection ~ 5850 3750
+Wire Wire Line
+	6000 2650 6000 2850
+Wire Wire Line
+	6000 2850 6650 2850
+Wire Wire Line
+	6650 2850 6650 2650
+Wire Wire Line
+	6650 2850 7300 2850
+Wire Wire Line
+	7300 2850 7300 2650
+Connection ~ 6650 2850
+Wire Wire Line
+	6000 3850 6000 3650
+Wire Wire Line
+	6650 3650 6650 3850
+Connection ~ 6650 3850
+Wire Wire Line
+	6650 3850 6000 3850
+Wire Wire Line
+	7300 3650 7300 3850
+Wire Wire Line
+	7300 3850 6650 3850
+Text GLabel 5500 2750 0    50   UnSpc ~ 0
+R0
+Text GLabel 5500 3750 0    50   UnSpc ~ 0
+R1
+Text GLabel 5500 4750 0    50   UnSpc ~ 0
+R2
+Text GLabel 6200 2000 1    50   UnSpc ~ 0
+C0
+Text GLabel 6850 2000 1    50   UnSpc ~ 0
+C1
+Text GLabel 7500 2000 1    50   UnSpc ~ 0
+C2
+$Comp
+L Device:Q_NMOS_GSD Q1
+U 1 1 5F4200A8
+P 8300 5200
+F 0 "Q1" H 8505 5200 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 8504 5155 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 8500 5300 50  0001 C CNN
+F 3 "~" H 8300 5200 50  0001 C CNN
+	1    8300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5F42D36D
+P 8400 5550
+F 0 "#PWR04" H 8400 5300 50  0001 C CNN
+F 1 "GND" H 8405 5377 50  0000 C CNN
+F 2 "" H 8400 5550 50  0001 C CNN
+F 3 "" H 8400 5550 50  0001 C CNN
+	1    8400 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 5F42E544
+P 7950 5200
+F 0 "R10" V 7754 5200 50  0000 C CNN
+F 1 "1k" V 7845 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7950 5200 50  0001 C CNN
+F 3 "~" H 7950 5200 50  0001 C CNN
+	1    7950 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 5F4304A4
+P 7800 5350
+F 0 "R11" H 7741 5304 50  0000 R CNN
+F 1 "10k" H 7741 5395 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7800 5350 50  0001 C CNN
+F 3 "~" H 7800 5350 50  0001 C CNN
+	1    7800 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 5250 7800 5200
+Wire Wire Line
+	7800 5200 7850 5200
+Wire Wire Line
+	8050 5200 8100 5200
+Wire Wire Line
+	7800 5450 7800 5500
+Wire Wire Line
+	8400 5550 8400 5500
+Wire Wire Line
+	7800 5500 8400 5500
+Connection ~ 8400 5500
+Wire Wire Line
+	8400 5500 8400 5400
+Wire Wire Line
+	7800 5200 7700 5200
+Connection ~ 7800 5200
+Text GLabel 7700 5200 0    50   UnSpc ~ 0
+backlight
+Wire Wire Line
+	6300 1800 6950 1800
+Wire Wire Line
+	6300 1800 6300 2150
+Wire Wire Line
+	6950 1800 6950 2150
+Wire Wire Line
+	7600 1800 7600 2150
+Connection ~ 6950 1800
+Wire Wire Line
+	6950 1800 7600 1800
+Wire Wire Line
+	6950 1800 6950 1700
+Wire Wire Line
+	4950 3250 4950 3150
+Wire Wire Line
+	4550 3250 4950 3250
+$Comp
+L power:+5V #PWR02
+U 1 1 5F45E24F
+P 4950 3150
+F 0 "#PWR02" H 4950 3000 50  0001 C CNN
+F 1 "+5V" H 4965 3323 50  0000 C CNN
+F 2 "" H 4950 3150 50  0001 C CNN
+F 3 "" H 4950 3150 50  0001 C CNN
+	1    4950 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3250 3150 3250
+Wire Wire Line
+	2850 3350 2850 3250
+$Comp
+L power:GND #PWR03
+U 1 1 5F4583D4
+P 2850 3350
+F 0 "#PWR03" H 2850 3100 50  0001 C CNN
+F 1 "GND" H 2855 3177 50  0000 C CNN
+F 2 "" H 2850 3350 50  0001 C CNN
+F 3 "" H 2850 3350 50  0001 C CNN
+	1    2850 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 3150 3650 0    50   UnSpc ~ 0
+C2
+Text GLabel 3150 3550 0    50   UnSpc ~ 0
+C1
+Text GLabel 3150 3450 0    50   UnSpc ~ 0
+C0
+Text GLabel 4550 4050 2    50   UnSpc ~ 0
+backlight
+Text GLabel 4550 3550 2    50   UnSpc ~ 0
+R2
+Text GLabel 4550 3450 2    50   UnSpc ~ 0
+R1
+Text GLabel 4550 3350 2    50   UnSpc ~ 0
+R0
+$Comp
+L Keebio-components:Elite-C U1
+U 1 1 5F453249
+P 3850 3500
+F 0 "U1" H 3850 4337 60  0000 C CNN
+F 1 "Elite-C" H 3850 4231 60  0000 C CNN
+F 2 "Keebio-Parts:Elite-C-ZigZag" V 4900 1000 60  0001 C CNN
+F 3 "" V 4900 1000 60  0001 C CNN
+	1    3850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5F479712
+P 6950 1700
+F 0 "#PWR01" H 6950 1550 50  0001 C CNN
+F 1 "+5V" H 6965 1873 50  0000 C CNN
+F 2 "" H 6950 1700 50  0001 C CNN
+F 3 "" H 6950 1700 50  0001 C CNN
+	1    6950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ai03:MX-LED MX7
+U 1 1 5F499B41
+P 5900 4150
+F 0 "MX7" H 5982 4331 60  0000 C CNN
+F 1 "MX-LED" H 5982 4300 20  0001 C CNN
+F 2 "Ai03-MX:MXOnly-1U" H 5275 4125 60  0001 C CNN
+F 3 "" H 5275 4125 60  0001 C CNN
+	1    5900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 5F499B4B
+P 5850 4550
+F 0 "D7" V 5850 4480 50  0000 R CNN
+F 1 "D_Small" V 5805 4480 50  0001 R CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" V 5850 4550 50  0001 C CNN
+F 3 "~" V 5850 4550 50  0001 C CNN
+	1    5850 4550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6050 4100 6200 4100
+Wire Wire Line
+	5850 4300 5850 4450
+Wire Wire Line
+	6000 4150 6300 4150
+$Comp
+L Device:R_Small R7
+U 1 1 5F499B58
+P 6000 4550
+F 0 "R7" H 6059 4550 50  0000 L CNN
+F 1 "R_Small" H 6059 4505 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6000 4550 50  0001 C CNN
+F 3 "~" H 6000 4550 50  0001 C CNN
+	1    6000 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4250 5900 4400
+Wire Wire Line
+	5900 4400 6000 4400
+Wire Wire Line
+	6000 4400 6000 4450
+Wire Wire Line
+	5850 4650 5850 4750
+Wire Wire Line
+	5850 4750 5500 4750
+$Comp
+L Ai03:MX-LED MX8
+U 1 1 5F499B67
+P 6550 4150
+F 0 "MX8" H 6632 4331 60  0000 C CNN
+F 1 "MX-LED" H 6632 4300 20  0001 C CNN
+F 2 "Ai03-MX:MXOnly-1U" H 5925 4125 60  0001 C CNN
+F 3 "" H 5925 4125 60  0001 C CNN
+	1    6550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 5F499B71
+P 6500 4550
+F 0 "D8" V 6500 4480 50  0000 R CNN
+F 1 "D_Small" V 6455 4480 50  0001 R CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" V 6500 4550 50  0001 C CNN
+F 3 "~" V 6500 4550 50  0001 C CNN
+	1    6500 4550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6700 4100 6850 4100
+Wire Wire Line
+	6500 4300 6500 4450
+Wire Wire Line
+	6650 4150 6950 4150
+$Comp
+L Device:R_Small R8
+U 1 1 5F499B7E
+P 6650 4550
+F 0 "R8" H 6709 4550 50  0000 L CNN
+F 1 "R_Small" H 6709 4505 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6650 4550 50  0001 C CNN
+F 3 "~" H 6650 4550 50  0001 C CNN
+	1    6650 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4250 6550 4400
+Wire Wire Line
+	6550 4400 6650 4400
+Wire Wire Line
+	6650 4400 6650 4450
+Wire Wire Line
+	6500 4650 6500 4750
+$Comp
+L Ai03:MX-LED MX9
+U 1 1 5F499B8C
+P 7200 4150
+F 0 "MX9" H 7282 4331 60  0000 C CNN
+F 1 "MX-LED" H 7282 4300 20  0001 C CNN
+F 2 "Ai03-MX:MXOnly-6U-Centered" H 6575 4125 60  0001 C CNN
+F 3 "" H 6575 4125 60  0001 C CNN
+	1    7200 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 5F499B96
+P 7150 4550
+F 0 "D9" V 7150 4480 50  0000 R CNN
+F 1 "D_Small" V 7105 4480 50  0001 R CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" V 7150 4550 50  0001 C CNN
+F 3 "~" V 7150 4550 50  0001 C CNN
+	1    7150 4550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7350 4100 7500 4100
+Wire Wire Line
+	7150 4300 7150 4450
+Wire Wire Line
+	7300 4150 7600 4150
+$Comp
+L Device:R_Small R9
+U 1 1 5F499BA3
+P 7300 4550
+F 0 "R9" H 7359 4550 50  0000 L CNN
+F 1 "R_Small" H 7359 4505 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7300 4550 50  0001 C CNN
+F 3 "~" H 7300 4550 50  0001 C CNN
+	1    7300 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 4250 7200 4400
+Wire Wire Line
+	7200 4400 7300 4400
+Wire Wire Line
+	7300 4400 7300 4450
+Wire Wire Line
+	7150 4650 7150 4750
+Wire Wire Line
+	6200 3100 6200 4100
+Wire Wire Line
+	6850 3100 6850 4100
+Wire Wire Line
+	7500 3100 7500 4100
+Wire Wire Line
+	6950 3150 6950 4150
+Wire Wire Line
+	6300 3150 6300 4150
+Wire Wire Line
+	7600 3150 7600 4150
+Wire Wire Line
+	6500 4750 7150 4750
+Connection ~ 6500 4750
+Wire Wire Line
+	5850 4750 6500 4750
+Connection ~ 5850 4750
+Wire Wire Line
+	6000 4850 6000 4650
+Wire Wire Line
+	6650 4650 6650 4850
+Connection ~ 6650 4850
+Wire Wire Line
+	6650 4850 6000 4850
+Wire Wire Line
+	7300 4650 7300 4850
+Wire Wire Line
+	7300 4850 6650 4850
+Connection ~ 6200 3100
+Connection ~ 6300 3150
+Connection ~ 6850 3100
+Connection ~ 6950 3150
+Connection ~ 7500 3100
+Connection ~ 7600 3150
+Wire Wire Line
+	7300 3850 8400 3850
+Wire Wire Line
+	8400 3850 8400 4850
+Connection ~ 7300 3850
+Wire Wire Line
+	7300 4850 8400 4850
+Connection ~ 7300 4850
+Connection ~ 8400 4850
+Wire Wire Line
+	8400 4850 8400 5000
+Wire Wire Line
+	7300 2850 8400 2850
+Wire Wire Line
+	8400 2850 8400 3850
+Connection ~ 7300 2850
+Connection ~ 8400 3850
+Wire Wire Line
+	3150 3150 2850 3150
+Wire Wire Line
+	2850 3150 2850 3250
+Connection ~ 2850 3250
+$Comp
+L power:GND #PWR0101
+U 1 1 5F55A7F4
+P 4550 3050
+F 0 "#PWR0101" H 4550 2800 50  0001 C CNN
+F 1 "GND" H 4555 2877 50  0000 C CNN
+F 2 "" H 4550 3050 50  0001 C CNN
+F 3 "" H 4550 3050 50  0001 C CNN
+	1    4550 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 5F4765D8
+P 8350 2200
+F 0 "SW1" H 8350 1833 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 8350 1924 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 8200 2360 50  0001 C CNN
+F 3 "~" H 8350 2460 50  0001 C CNN
+	1    8350 2200
+	-1   0    0    1   
+$EndComp
+Text GLabel 7850 2000 1    50   UnSpc ~ 0
+C3
+Wire Wire Line
+	7850 2000 7850 2100
+Wire Wire Line
+	7850 2100 8050 2100
+$Comp
+L Device:D_Small D10
+U 1 1 5F48CFE2
+P 7850 2550
+F 0 "D10" V 7850 2480 50  0000 R CNN
+F 1 "D_Small" V 7805 2480 50  0001 R CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" V 7850 2550 50  0001 C CNN
+F 3 "~" V 7850 2550 50  0001 C CNN
+	1    7850 2550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7850 2650 7850 2750
+Wire Wire Line
+	7850 2750 7150 2750
+Connection ~ 7150 2750
+Wire Wire Line
+	7850 2450 7850 2300
+Wire Wire Line
+	7850 2300 8050 2300
+Wire Wire Line
+	8650 2200 9050 2200
+Wire Wire Line
+	9050 2200 9050 2300
+$Comp
+L power:GND #PWR0102
+U 1 1 5F49E8AE
+P 9050 2300
+F 0 "#PWR0102" H 9050 2050 50  0001 C CNN
+F 1 "GND" H 9055 2127 50  0000 C CNN
+F 2 "" H 9050 2300 50  0001 C CNN
+F 3 "" H 9050 2300 50  0001 C CNN
+	1    9050 2300
+	1    0    0    -1  
+$EndComp
+Text GLabel 8650 2100 2    50   UnSpc ~ 0
+ENC_B
+Text GLabel 8650 2300 2    50   UnSpc ~ 0
+ENC_A
+Text GLabel 4550 3950 2    50   UnSpc ~ 0
+ENC_B
+Text GLabel 4550 3850 2    50   UnSpc ~ 0
+ENC_A
+Text GLabel 3150 3350 0    50   UnSpc ~ 0
+C3
+$EndSCHEMATC

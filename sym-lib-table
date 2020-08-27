@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Ai03)(type Legacy)(uri "${KIPRJMOD}/lib/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name Keebio-components)(type Legacy)(uri ${KIPRJMOD}/lib/keebio-components/keebio.lib)(options "")(descr ""))
+)
